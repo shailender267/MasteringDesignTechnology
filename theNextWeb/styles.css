@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.hide{
+	display:none;
+}
+.wrapper{
+	background:red;
+	width:1128px;
+	margin:0px auto;
+}
+header{background:blue; height:150px;}
+.channels{width:30%; background:orange;height:1500px;}
+.mainContent{width:70%; background:purple;height:1500px;}
+.topNews{
+	background: yellow;
+	float: left;
+	width: 63%;
+	height: 547px;
+	margin: 10px;
+}
