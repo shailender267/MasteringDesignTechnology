@@ -1,0 +1,57 @@
+/* CSS Document */
+
+.wrapper{
+	margin:0px auto;
+	width:70%;
+	height:auto;
+	border:1px solid #000;
+	overflow:hidden;
+}
+header{
+	background:blue;
+	height:80px;
+	width:100%;
+	float: left;
+}
+nav{
+	height: 40px;
+	width:100%;
+	float: left;
+	background: green;
+}
+.container{
+	width:100%;
+	float: left;
+}
+aside{
+	width: 30%;
+	background: red;
+	height: 600px;
+	float: left;
+}
+footer{
+	background:#c0c0c0;
+	height:40px;
+	width:100%;
+	float: left;
+}
+article {
+	width: 70%;
+	background: #fff;
+	height: 600px;
+	float: left;
+}
+
+/*--------------------------------------*/
+
+@media screen and (max-width:767px){
+	.wrapper{
+		width:90%;
+	}
+	aside{
+		width:100%;
+	}
+	article{
+		width:100%;
+	}
+}
